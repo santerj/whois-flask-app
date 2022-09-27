@@ -10,12 +10,12 @@
   <meta property="og:title" content="whois app">
   <meta property="og:type" content="website">
   <meta property="og:description" content="whois app">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   {% endblock %}
 </head>
 
 <body>
-    <h1>whois app</h1>
+    <h1 class="text-3xl font-bold underline">whois app</h1>
     
     <form id="form1" action="/whois" method="get">
       <input id="input" name="domain" type="text" placeholder="example.com">
