@@ -49,4 +49,5 @@ isolate*.log
 /tests/evaluate-tailwind-functions.test.html
 
 ## Other
+src/__pycache__
 src/static/styles.css
