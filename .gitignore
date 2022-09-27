@@ -34,7 +34,6 @@ htmlcov/
 /example
 .vscode
 .DS_Store
-tailwind.config.js
 index.html
 yarn.lock
 yarn-error.log
@@ -48,3 +47,6 @@ isolate*.log
 
 # Generated files during tests
 /tests/evaluate-tailwind-functions.test.html
+
+## Other
+src/static/styles.css
