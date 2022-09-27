@@ -1,11 +1,23 @@
 {% extends "index.html" %}
 
 {% block content %}
-<div class="container">
-    <ul>
-      <li id="name">Domain name: <b>{{ data['Domain'] }}</b></li>
-      <li id="creation date">Creation date: <b>{{ data['Creation date'] }}</b></li>
-      <li id="expiraion date">Expiration date: <b>{{ data['Expiration date'] }}</b></li>
-    </ul>
+<div class="flex-auto">
+  <table class="table-fixed mx-4">
+    <tbody>
+      <tr>
+        <td>Domain name:</td>
+        <td><b>{{ data['Domain'] }}</b></td>
+      </tr>
+      <tr>
+        <td>Creation date:</td>
+        <td><b>{{ data['Creation date'] }}</b></td>
+      </tr>
+      <tr>
+        <td>Expiration date:</td>
+        <td><b>{{ data['Expiration date'] }}</b></td>
+      </tr>
+
+    </tbody>
+  </table>
 </div>
 {% endblock %}
