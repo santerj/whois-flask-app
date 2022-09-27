@@ -50,4 +50,3 @@ isolate*.log
 
 ## Other
 src/__pycache__
-src/static/styles.css
