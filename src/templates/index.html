@@ -15,14 +15,20 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">whois app</h1>
+  <div id="everything" class="h-screen bg-rose-200 py-60">
+    <div id="title" class="text-center content-center pb-5">
+      <h1 class="text-4xl font-bold focus:underline"><a href=index>whois</a></h1>
+    </div>
+
+    <div id="input" class="flex justify-center items-center content-center">
+      <form id="form1" action="/whois" method="get" class="bg-neutral-100 shadow-md rounded px-8 pt-6 pb-8 flex flex-col justify-center items-center">
+        <input id="input" name="domain" type="text" placeholder="example.com" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline">
+        <button type="submit" form="form1" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-2 rounded focus:outline-none focus:shadow-outline">Send</button>
+      </form>
+    </div>
     
-    <form id="form1" action="/whois" method="get">
-      <input id="input" name="domain" type="text" placeholder="example.com">
-      <button type="submit" form="form1">Send</button>
-    </form>
-    
-    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="content" class="flex flex-col justify-center items-center text-center x-8 pt-6 pb-8 font font-semibold">{% block content %}{% endblock %}</div>
+  </div>
 
 </body>
 </html>
