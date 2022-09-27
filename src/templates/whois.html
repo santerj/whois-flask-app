@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container">
+    <h3>whois data:</h3>
+    <ul>
+      <li id="name">Domain name: {{ data['Domain'] }}</li>
+      <li id="creation date">Creation date: {{ data['Creation date'] }}</li>
+      <li id="expiraion date">Expiration date: {{ data['Expiration date'] }}</li>
+    </ul>
+</div>
+{% endblock %}
