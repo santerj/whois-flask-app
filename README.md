@@ -3,9 +3,11 @@
 stupid web app for my stupid degree
 
 ## Tech
-- Python
-  - Flask, Jinja2
-- Tailwindcss
+- [Python](https://www.python.org/)
+  - [Flask](https://flask.palletsprojects.com/)
+  - [Jinja](https://jinja.palletsprojects.com/en/3.1.x/)
+  - [python-whois](https://pypi.org/project/python-whois/) 
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Guides
 Install dependencies:
