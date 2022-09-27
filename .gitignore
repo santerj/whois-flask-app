@@ -1,3 +1,4 @@
+## Flask
 .DS_Store
 .env
 .flaskenv
@@ -23,3 +24,27 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+## Tailwind
+/node_modules
+/coverage
+/cli
+/lib
+/peers
+/example
+.vscode
+.DS_Store
+tailwind.config.js
+index.html
+yarn.lock
+yarn-error.log
+types/generated/*.d.ts
+
+# Perf related files
+isolate*.log
+
+# Generated files
+/src/corePluginList.js
+
+# Generated files during tests
+/tests/evaluate-tailwind-functions.test.html
